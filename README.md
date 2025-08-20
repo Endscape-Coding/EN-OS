@@ -72,7 +72,7 @@
 ### 📥 Установка
 
 #### 1. Скачайте образ
-Загрузите последнюю версию EN-OS со страницы [релизов](https://github.com/Endscape-Coding/EN-OS/releases) или по прямой ссылке.
+Загрузите последнюю версию EN-OS со страницы [релизов](https://github.com/Endscape-Coding/EN-OS/releases)(скоро будет) или по прямой ссылке.
 
 #### 2. Запишите образ на USB
 Используйте любую программу для записи ISO-образов на USB-накопитель.
@@ -96,7 +96,7 @@
 
 | Версия                | Статус              | Размер  | Ссылка                                                                                              |
 | :-------------------- | :------------------ | :------ | :-------------------------------------------------------------------------------------------------- |
-| **Live EN-OS Beta 0.4** | Beta                | ~4.2 GB | [Скачать](https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ)           |
+| **Live EN-OS Beta 0.4** | Beta                | ~3.2 GB | [Скачать](https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ)           |
 | **Developer Edition** | 🚧 В разработке      | -       | *Скоро* |
 | **Gaming Edition** | 🚧 В разработке      | -       | *Скоро* |
 
@@ -206,7 +206,7 @@ Reboot your computer and select the USB drive from your BIOS/UEFI boot menu.
 
 | Version               | Status              | Size    | Link                                                                                                |
 | :-------------------- | :------------------ | :------ | :-------------------------------------------------------------------------------------------------- |
-| **Live EN-OS Beta 0.4** | Beta                | ~4.2 GB | [Download](https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ)         |
+| **Live EN-OS Beta 0.4** | Beta                | ~3.2 GB | [Download](https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ)         |
 | **Developer Edition** | 🚧 Under Development | -       | *Coming Soon* |
 | **Gaming Edition** | 🚧 Under Development | -       | *Coming Soon* |
 
