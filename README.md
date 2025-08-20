@@ -47,7 +47,7 @@
 
 | Рабочий стол | Приложения |
 | :---: | :---: |
-| ![Desktop](/images/desktop.png) | ![Applications](/images/apps.png) |
+| ![Desktop](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/desktop.png) | ![Applications](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/apps.png) |
 
 | Терминал | Настройки |
 | :---: | :---: |
@@ -82,7 +82,7 @@ wget "https://drive.google.com/uc?export=download&id=1tEyPk8X-1TeidneyKaP35-jkQP
 4. Нажмите 'Flash!' и дождитесь завершения
 
 **dd (Linux/macOS):**
-```bash
+
 # Определите путь к USB-устройству (например, /dev/sdX)
 lsblk
 
