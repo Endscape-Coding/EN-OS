@@ -1,0 +1,49 @@
+componentName: EN-OS
+
+welcomeStyleCalamares: true
+
+welcomeExpandingLogo: true
+
+windowExpanding: normal
+windowExpanding: noexpand
+
+windowSize: 1200px,715px
+
+windowPlacement: center
+
+sidebar: widget
+
+navigation: widget
+
+strings:
+    productName:         EN-OS
+    shortProductName:    EN-OS
+    version:             0.5 BETA
+    shortVersion:        0.5
+    versionedName:       EN-OS 0.5 BETA
+    shortVersionedName:  0.5
+    bootloaderEntryName: EN-OS
+
+images:
+    productLogo:         "enos-icon.png"
+    productIcon:         "enosicon.png"
+    productWelcome:      "worldmap.png"
+    productBanner:       "release-name-logo.png"
+    productWallpaper:    "wallpaper.png"
+
+slideshowAPI: 2
+
+style:
+   SidebarBackground:        "#000a3d"
+   SidebarText:              "#ffffff"
+   SidebarTextCurrent:       "#7d7dfb"
+   SidebarBackgroundCurrent: "#000a3d"
+
+slideshow:               "show.qml"
+
+# log feature
+
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
+    sizeLimit : -1

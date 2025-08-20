@@ -1,0 +1,19 @@
+# Основные настройки
+export HISTSIZE=10000
+export SAVEHIST=10000
+export HISTFILE=~/.zsh_history
+setopt HIST_IGNORE_ALL_DUPS
+
+# Цветное приглашение
+autoload -U colors && colors
+PROMPT="%F{blue}%n@%m %F{green}%~%f %# "
+
+# Плагины
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Алиасы
+alias ll='ls -alh --color=auto'
+alias grep='grep --color=auto'
+
+fastfetch --logo /usr/logos/en-os.txt

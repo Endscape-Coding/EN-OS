@@ -1,0 +1,364 @@
+/*
+ * EN-OS Ultra Premium Calamares Theme
+ * Featuring: Micro-interactions, compact UI and deep blue aesthetics
+ * Fixed: Offline support, input fields contrast, root mode issues
+ */
+
+/* ====================
+ *  GLOBAL STYLES (OFFLINE SUPPORT)
+ *  ==================== */
+* {
+	/* Fallback font stack for offline support */
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	outline: none;
+	color: #e0e9ff;
+	selection-background-color: #1a4b8c;
+	selection-color: white;
+}
+
+/* ====================
+ *  MAIN WINDOW
+ *  ==================== */
+#mainApp {
+background: linear-gradient(145deg, #000a3d, #022a60, #004080);
+background-size: 300% 300%;
+animation: GradientFlow 18s ease infinite;
+border: 1px solid rgba(0, 42, 96, 0.3);
+}
+
+@keyframes GradientFlow {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+
+/* ====================
+ *  INPUT FIELD FIXES (WHITE BACKGROUND ISSUE)
+ *  ==================== */
+QLineEdit, QComboBox, QTextEdit, QPlainTextEdit, QSpinBox {
+	background: rgba(0, 10, 30, 0.85) !important;
+	color: #e0e9ff;
+	border: 1px solid rgba(0, 92, 175, 0.4);
+	border-radius: 4px;
+	padding: 6px 10px;
+	font-size: 13px;
+	selection-background-color: #1a4b8c;
+}
+
+QComboBox::drop-down {
+	background: transparent;
+	border-left: 1px solid rgba(0, 92, 175, 0.3);
+}
+
+QLineEdit:focus, QComboBox:focus, QTextEdit:focus {
+	border: 1px solid rgba(0, 122, 255, 0.7);
+	box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.15);
+}
+
+QComboBox QAbstractItemView {
+	background: rgba(0, 15, 45, 0.95);
+	color: #e0e9ff;
+	border: 1px solid rgba(0, 92, 175, 0.4);
+	selection-background-color: #1a4b8c;
+	padding: 4px;
+}
+
+/* ====================
+ *  SIDEBAR - GLASS EFFECT
+ *  ==================== */
+#sidebarMenuApp {
+background: rgba(0, 10, 61, 0.68);
+backdrop-filter: blur(12px);
+border-right: 1px solid rgba(0, 92, 175, 0.15);
+padding-top: 0;
+}
+
+QListView {
+	background: transparent;
+	border: none;
+	padding: 8px 0;
+	show-decoration-selected: 0;
+}
+
+QListView::item {
+	padding: 8px 16px;
+	margin: 2px 8px;
+	border-radius: 4px;
+	border-left: 2px solid transparent;
+	font-weight: 400;
+	font-size: 12px;
+	transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+QListView::item:hover {
+	background: rgba(0, 92, 175, 0.2);
+}
+
+QListView::item:selected {
+	background: rgba(0, 92, 175, 0.35);
+	border-left: 2px solid #0077ff;
+	font-weight: 500;
+}
+
+/* ====================
+ *  ULTRA-COMPACT BUTTONS
+ *  ==================== */
+QPushButton {
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+								stop: 0 #003b7d, stop: 1 #002a5a);
+	color: #f0f6ff;
+	border: 1px solid rgba(0, 92, 175, 0.4);
+	border-radius: 4px;
+	padding: 4px 16px;
+	font-size: 11px;
+	font-weight: 500;
+	min-height: 24px;
+	max-height: 24px;
+	transition: all 0.2s ease;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+QPushButton:hover {
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+								stop: 0 #004a9e, stop: 1 #003b7d);
+	border-color: rgba(0, 122, 255, 0.6);
+	transform: translateY(-1px);
+	box-shadow: 0 2px 6px rgba(0, 60, 125, 0.3);
+}
+
+QPushButton:pressed {
+	transform: translateY(0);
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+								stop: 0 #002a5a, stop: 1 #003b7d);
+	box-shadow: none;
+}
+
+QPushButton:disabled {
+	background: #1a2238;
+	color: #4a5a7a;
+}
+
+/* ====================
+ *  TOOL BUTTONS
+ *  ==================== */
+#debugButton, #aboutButton {
+background: transparent;
+color: #8aa4c8;
+border: 1px solid rgba(0, 92, 175, 0.2);
+border-radius: 4px;
+padding: 4px 10px;
+min-width: 24px;
+min-height: 24px;
+font-size: 10px;
+}
+
+#debugButton:hover, #aboutButton:hover {
+background: rgba(0, 92, 175, 0.15);
+color: #c2d6f7;
+border-color: rgba(0, 122, 255, 0.4);
+}
+
+/* ====================
+ *  PACKAGE CHOOSER - CARDS UI
+ *  ==================== */
+#products {
+background: rgba(0, 15, 45, 0.5);
+border-radius: 6px;
+border: 1px solid rgba(0, 92, 175, 0.15);
+padding: 0;
+margin: 5px;
+}
+
+#products::item {
+padding: 10px;
+border-bottom: 1px solid rgba(0, 92, 175, 0.1);
+transition: all 0.25s ease;
+}
+
+#products::item:hover {
+background: rgba(0, 92, 175, 0.1);
+}
+
+#products::item:selected {
+background: rgba(0, 92, 175, 0.2);
+border-left: 2px solid #0077ff;
+}
+
+#productScreenshot {
+border: 1px solid rgba(0, 92, 175, 0.3);
+border-radius: 4px;
+background: rgba(0, 15, 45, 0.3);
+transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+}
+
+#productScreenshot:hover {
+transform: scale(1.02) translateY(-2px);
+box-shadow: 0 4px 12px rgba(0, 60, 125, 0.25);
+}
+
+#productDescription {
+color: #c2d6f7;
+font-size: 12px;
+line-height: 1.5;
+padding: 12px;
+background: rgba(0, 15, 45, 0.4);
+border-radius: 4px;
+border: 1px solid rgba(0, 92, 175, 0.1);
+}
+
+/* ====================
+ *  NANO PROGRESS BAR
+ *  ==================== */
+QProgressBar {
+	border-radius: 2px;
+	background: rgba(0, 92, 175, 0.1);
+	height: 4px;
+	text-align: center;
+	border: none;
+}
+
+QProgressBar::chunk {
+	background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0,
+								stop: 0 #0077ff, stop: 1 #00a1ff);
+	border-radius: 2px;
+	animation: ProgressGlow 1.5s ease infinite alternate;
+}
+
+@keyframes ProgressGlow {
+	from { opacity: 0.9; }
+	to { opacity: 1; box-shadow: 0 0 5px #0077ff; }
+}
+
+/* ====================
+ *  SCROLLBARS - THIN MODERN
+ *  ==================== */
+QScrollBar:vertical {
+	width: 6px;
+	background: transparent;
+}
+
+QScrollBar::handle:vertical {
+	background: rgba(0, 122, 255, 0.5);
+	min-height: 30px;
+	border-radius: 3px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+	height: 0;
+}
+
+/* ====================
+ *  TOOLTIPS - CRYSTAL
+ *  ==================== */
+QToolTip {
+	background-color: rgba(0, 10, 45, 0.95);
+	color: #e0f0ff;
+	border: 1px solid rgba(0, 122, 255, 0.4);
+	border-radius: 3px;
+	padding: 6px 10px;
+	font-size: 11px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ====================
+ *  ANIMATED ELEMENTS
+ *  ==================== */
+/* Floating logo with pulse effect */
+#logoLabel {
+qproperty-pixmap: url(/usr/share/calamares/branding/EN-OS/logo.png);
+animation: FloatPulse 8s ease-in-out infinite;
+}
+
+@keyframes FloatPulse {
+	0%, 100% {
+		transform: translateY(0) scale(1);
+		opacity: 1;
+	}
+	50% {
+		transform: translateY(-10px) scale(1.03);
+		opacity: 0.9;
+	}
+}
+
+/* ====================
+ *  MICRO-INTERACTIONS
+ *  ==================== */
+/* Checkbox animation */
+QCheckBox::indicator {
+	width: 16px;
+	height: 16px;
+	border: 1px solid rgba(0, 92, 175, 0.5);
+	border-radius: 3px;
+	background: rgba(0, 20, 60, 0.3);
+	transition: all 0.2s ease;
+}
+
+QCheckBox::indicator:hover {
+	border-color: rgba(0, 122, 255, 0.7);
+}
+
+QCheckBox::indicator:checked {
+	background: qradialgradient(cx:0.5, cy:0.5, radius: 0.5,
+								fx:0.5, fy:0.5,
+							 stop:0 #0077ff, stop:1 #00a1ff);
+	border-color: rgba(0, 122, 255, 0.8);
+	image: url(:/icons/check);
+}
+
+/* ====================
+ *  DARK MODE ADJUSTMENTS
+ *  ==================== */
+QTextEdit, QPlainTextEdit {
+	background: rgba(0, 15, 45, 0.4);
+	border: 1px solid rgba(0, 92, 175, 0.2);
+	border-radius: 3px;
+	padding: 8px;
+	color: #d0e0ff;
+}
+
+/* ====================
+ *  RESPONSIVE TWEAKS
+ *  ==================== */
+@media screen and (max-width: 800px) {
+	#sidebarMenuApp {
+	width: 160px;
+	}
+
+	QPushButton {
+		padding: 3px 12px;
+		font-size: 10px;
+		min-height: 22px;
+	}
+}
+
+/* ====================
+ *  ROOT MODE FIXES
+ *  ==================== */
+/* Explicitly style all input widgets */
+QLineEdit, QComboBox, QTextEdit, QPlainTextEdit, QSpinBox, QDateTimeEdit {
+	background: rgba(0, 10, 30, 0.85);
+	color: #e0e9ff;
+}
+
+/* Fix for dropdown menus */
+QMenu {
+	background-color: rgba(0, 15, 45, 0.95);
+	color: #e0e9ff;
+	border: 1px solid rgba(0, 92, 175, 0.4);
+}
+
+QMenu::item {
+	padding: 6px 24px 6px 12px;
+}
+
+QMenu::item:selected {
+	background: rgba(0, 92, 175, 0.35);
+}
+
+/* Fix for disabled elements */
+QLineEdit:disabled, QComboBox:disabled, QTextEdit:disabled {
+	color: #6a7a9a;
+	background: rgba(0, 10, 30, 0.5);
+}
