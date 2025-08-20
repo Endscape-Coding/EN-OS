@@ -51,7 +51,7 @@
 
 | Терминал | Настройки |
 | :---: | :---: |
-| ![Terminal](/images/terminal.png) | ![Settings](/images/settings.png) |
+| ![Terminal](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/terminal.png) | ![Settings](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/settings.png) |
 
 </div>
 
