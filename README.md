@@ -38,7 +38,7 @@
 
 Наша философия — предоставить пользователю готовую к работе систему, избавляя от необходимости долгой настройки и ручной установки драйверов. EN-OS идеально подходит для повседневного использования, разработки, мультимедиа и игр.
 
-> ⚠️ **Текущий статус:** `Beta 0.4` (Live-режим). Установщик находится в активной разработке. Система пока не рекомендуется для использования в качестве основной.
+>  **Текущий статус:** `Beta 0.6` 
 
 ---
 
@@ -49,7 +49,7 @@
 -   **⚡ Высокая производительность:** Оптимизированное ядро и тщательно подобранный набор ПО обеспечивают быструю и отзывчивую работу системы.
 -   **🔒 Безопасность:** Построен на базе Arch Linux, что гарантирует регулярные обновления и высокий уровень безопасности.
 -   **📦 Продуманный набор ПО:** Включает приложения для офисной работы, мультимедиа, разработки и общения.
--   **🔧 Простая установка:** В будущих версиях будет интегрирован интуитивно понятный установщик **Calamares**.
+-   **🔧 Простая установка:** Интегрирован интуитивно понятный установщик Calamares.
 
 ---
 
@@ -96,7 +96,7 @@
 
 | Версия                | Статус              | Размер  | Ссылка                                                                                              |
 | :-------------------- | :------------------ | :------ | :-------------------------------------------------------------------------------------------------- |
-| **Live EN-OS Beta 0.4** | Beta                | ~3.2 GB | [Скачать](https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ)           |
+| **Live EN-OS Beta 0.6** | Beta                | ~4.2 GB | [Скачать](https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ)           |
 | **Developer Edition** | 🚧 В разработке      | -       | *Скоро* |
 | **Gaming Edition** | 🚧 В разработке      | -       | *Скоро* |
 
@@ -148,7 +148,7 @@ EN-OS — это проект с открытым исходным кодом, �
 
 Our philosophy is to provide a system that is ready for immediate use, saving you from lengthy setup processes and manual driver installations. EN-OS is ideal for daily use, development, multimedia, and gaming.
 
-> ⚠️ **Current Status:** `Beta 0.4` (Live Mode). The installer is under active development. It is not yet recommended for production environments.
+> **Current Status:** `Beta 0.6`.
 
 ---
 
@@ -159,7 +159,7 @@ Our philosophy is to provide a system that is ready for immediate use, saving yo
 -   **⚡ High Performance:** A tuned kernel and a carefully selected software suite ensure a fast and responsive system.
 -   **🔒 Secure:** Built on Arch Linux, guaranteeing timely updates and a high level of security.
 -   **📦 Curated Software:** Includes a suite of applications for office tasks, multimedia, development, and communication.
--   **🔧 Easy Installation:** Future releases will feature the intuitive **Calamares** installer.
+-   **🔧 Easy Installation:** Intuitive Calamares installer.
 
 ---
 
@@ -206,7 +206,7 @@ Reboot your computer and select the USB drive from your BIOS/UEFI boot menu.
 
 | Version               | Status              | Size    | Link                                                                                                |
 | :-------------------- | :------------------ | :------ | :-------------------------------------------------------------------------------------------------- |
-| **Live EN-OS Beta 0.4** | Beta                | ~3.2 GB | [Download](https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ)         |
+| **Live EN-OS Beta 0.6** | Beta                | ~4.3 GB | [Download](https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ)         |
 | **Developer Edition** | 🚧 Under Development | -       | *Coming Soon* |
 | **Gaming Edition** | 🚧 Under Development | -       | *Coming Soon* |
 
