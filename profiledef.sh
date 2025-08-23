@@ -5,7 +5,7 @@ iso_name="EN-OS"
 iso_label="EN-OS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="Endscape <https://endscape-coding.github.io/>"
 iso_application="EN-OS live to Usb or Dvd"
-iso_version="EN-OS 0.5 beta$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
+iso_version="EN-OS 0.6 beta$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'

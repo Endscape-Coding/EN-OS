@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-systemctl enable NetworkManager
 
-sudo cp -rf /etc/calamares/newmodules/* /etc/calamares/modules/
+sudo cp -rf /etc/coree/* /usr/lib/
+sudo cp -f /etc/coree/main.xml /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
+
+systemctl enable NetworkManager
+systemctl start NetworkManager
 
 script_cmdline() {
     local param
@@ -90,6 +93,6 @@ if [[ $(tty) == "/dev/tty1" ]]; then
             startx
         fi
         sleep 10
-        sudo calamares
+        sudo calamares || true
     fi
 fi
