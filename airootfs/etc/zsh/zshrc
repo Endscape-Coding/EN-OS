@@ -1,3 +1,6 @@
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
 # Основные настройки
 export HISTSIZE=10000
 export SAVEHIST=10000
@@ -6,14 +9,68 @@ setopt HIST_IGNORE_ALL_DUPS
 
 # Цветное приглашение
 autoload -U colors && colors
-PROMPT="%F{blue}%n@%m %F{green}%~%f %# "
+
+# Кастомный промпт в светлых пастельных тонах
+set_light_purple_prompt() {
+    local exit_code=$?
+
+    # Светлая пастельная палитра (ZSH color codes)
+    LAVENDER='%F{183}'      # #d7afff
+    LILAC='%F{189}'         # #d7d7ff
+    PERIWINKLE='%F{147}'    # #afafff
+    POWDER_BLUE='%F{153}'   # #afd7ff
+    LIGHT_CYAN='%F{195}'    # #d7ffff
+    RESET='%f%b'
+
+    # Символы
+    TOP_CORNER="╭─"
+    BOTTOM_CORNER="╰─"
+    LAMBDA="λ"
+
+    # Эмодзи статуса
+    local status_emoji="💠"
+    [ $exit_code -ne 0 ] && status_emoji="⚡"
+
+    # Время выполнения (для ZSH нужно использовать другой подход)
+    local time_display=""
+    if [ -n "${CMD_DURATION}" ] && [ "${CMD_DURATION}" -gt 1000 ]; then
+        local seconds=$((CMD_DURATION / 1000))
+        time_display="${POWDER_BLUE}took ${seconds}s${RESET}"
+    fi
+
+    PROMPT="${TOP_CORNER}${LAVENDER}%n${LILAC}@${PERIWINKLE}%m${RESET} in ${POWDER_BLUE}%~${RESET} ${status_emoji} ${time_display}
+${BOTTOM_CORNER}${LIGHT_CYAN}${LAMBDA}${RESET} "
+}
+
+# Устанавливаем промпт
+set_light_purple_prompt
+
+# Автодополнение
+autoload -U compinit
+compinit
 
 # Плагины
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 
 # Алиасы
 alias ll='ls -alh --color=auto'
 alias grep='grep --color=auto'
+alias ls='ls --color=auto'
 
-fastfetch --logo /usr/logos/en-os.txt
+# Fastfetch
+fastfetch --logo /usr/logos/en-os.txt 2>/dev/null
+
+# Дополнительные настройки для ZSH
+setopt autocd              # автоматический переход в директорию по имени
+setopt interactivecomments # разрешить комментарии в интерактивной оболочке
+setopt notify              # уведомлять о завершении фоновых задач
+
+# История
+setopt appendhistory     # добавлять в историю, а не перезаписывать
+setopt sharehistory      # делиться историей между сессиями
+setopt extendedhistory   # сохранять время выполнения команд
+
+# Автодополнение с цветами
+zstyle ':completion:*' menu select
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}

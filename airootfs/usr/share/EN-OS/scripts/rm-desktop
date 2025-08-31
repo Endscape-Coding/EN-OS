@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rm -f /etc/xdg/autostart/wallpaper.desktop || true

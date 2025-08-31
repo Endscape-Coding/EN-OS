@@ -1,0 +1,11 @@
+<Config>
+  <Group name="General">
+    <Entry key="fontSize" type="Int"><Default>16</Default><Range min="8" max="48"/></Entry>
+    <Entry key="speed" type="Int"><Default>50</Default><Range min="1" max="100"/></Entry>
+    <Entry key="colorMode" type="Int"><Default>0</Default></Entry>
+    <Entry key="singleColor" type="String"><Default>#00ff00</Default></Entry>
+    <Entry key="paletteIndex" type="Int"><Default>0</Default></Entry>
+    <Entry key="jitter" type="Double"><Default>0.0</Default></Entry>
+    <Entry key="glitchChance" type="Int"><Default>1</Default><Range min="0" max="100"/></Entry>
+  </Group>
+</Config>

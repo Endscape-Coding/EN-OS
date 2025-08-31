@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Matrix-Wallpaper
+Comment=Set Matrix-Wallpaper
+# for autostart:
+Exec=bash /usr/share/EN-OS/scripts/matrix
+# for desktop launcher:
+#Exec=eos-welcome --once
+# StartupNotify=false
+# Terminal=False
+Hidden=false
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-after=panel
+Categories=System
