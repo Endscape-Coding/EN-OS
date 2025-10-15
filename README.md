@@ -96,7 +96,7 @@
 
 | Версия                | Статус              | Размер  | Ссылка                                                                                              |
 | :-------------------- | :------------------ | :------ | :-------------------------------------------------------------------------------------------------- |
-| **Live EN-OS Beta 0.6** | Beta                | ~4.6 GB | [Скачать](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download)           |
+| **Live EN-OS Beta 0.8** | Beta                | ~4.6 GB | [Скачать](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download)           |
 | **Developer Edition** | 🚧 В разработке      | -       | *Скоро* |
 | **Gaming Edition** | 🚧 В разработке      | -       | *Скоро* |
 
