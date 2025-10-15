@@ -1,6 +1,0 @@
-[Daemon]
-Timeout=15
-
-[Greeter][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/EN-OS_1/contents/EN_OS1.jpg
-PreviewImage=/usr/share/wallpapers/EN-OS_1/contents/EN_OS1.jpg

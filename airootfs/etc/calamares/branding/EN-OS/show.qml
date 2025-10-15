@@ -67,7 +67,7 @@ Presentation
 
         Image {
             id: slide_trust
-            source: "enos-welcome.png"
+            source: "slide-trust.png"
             fillMode: Image.PreserveAspectFit
             anchors.fill: parent
             opacity: slide1.x === 0 ? 1 : 0.3
@@ -94,7 +94,7 @@ Presentation
 
         Image {
             id: slide_welcome_app
-            source: "enos-forum.png"
+            source: "slide-welcome-app.png"
             fillMode: Image.PreserveAspectFit
             anchors.fill: parent
             opacity: slide2.x === 0 ? 1 : 0.3
@@ -121,7 +121,7 @@ Presentation
 
         Image {
             id: slide_discover
-            source: "enos-discover.png"
+            source: "slide-discover.png"
             fillMode: Image.PreserveAspectFit
             anchors.fill: parent
             opacity: slide3.x === 0 ? 1 : 0.3
@@ -148,7 +148,7 @@ Presentation
 
         Image {
             id: slide_forum
-            source: "enos-links.png"
+            source: "slide-forum.png"
             fillMode: Image.PreserveAspectFit
             anchors.fill: parent
             opacity: slide4.x === 0 ? 1 : 0.3

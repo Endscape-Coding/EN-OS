@@ -1,0 +1,10 @@
+[%General]
+Driver=QMYSQL
+
+[QMYSQL]
+DataDir=/root/.local/share/akonadi/db_data
+Host=
+Name=akonadi
+Options="UNIX_SOCKET=/run/user/0/akonadi/mysql.socket"
+ServerPath=/usr/bin/mysqld
+StartServer=true

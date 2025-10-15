@@ -39,6 +39,7 @@ remove_sddm_autologin() {
     
     # Дополнительно: удаляем возможные autologin конфиги
     rm -f /etc/sddm.conf.d/autologin.conf 2>/dev/null || true
+    cp -f /usr/share/EN-OS/sddm/kde_settings.conf /etc/sddm.conf.d
 }
 
 # Функция для удаления Calamares из автозапуска
@@ -130,6 +131,10 @@ systemctl_starting(){
     systemctl enable bluetooth || true
     systemctl --user enable --now pipewire.service || true
     systemctl --user enable --now pipewire-pulse.service || true
+    chmod +x /usr/share/EN-OS/scripts/postinstall.sh || true
+    systemctl daemon-reload || true
+    systemctl enable postinstall.service || true
+
 }
 
 plymouth(){
@@ -137,9 +142,6 @@ plymouth(){
 
 }
 
-grub(){
-    bash /etc/Grub2-theme/install.sh
-}
 
 initramfs(){
     set -e # Exit on any error
@@ -215,7 +217,6 @@ main() {
     initramfs
     systemctl_starting
     plymouth
-    grub
     clean_temporary_files
     clean_history_and_cache
     disable_live_services

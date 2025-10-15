@@ -3,9 +3,9 @@
 export BROWSER_HOMEPAGE="file:///etc/core/home.html"
 alias firefox='firefox --new-window $BROWSER_HOMEPAGE'
 alias chromium='chromium --homepage=$BROWSER_HOMEPAGE'
-sudo cp /etc/kde_settings.conf /etc/sddm.conf.d/kde_settings.conf
+#sudo cp /etc/kde_settings.conf /etc/sddm.conf.d/kde_settings.conf
 sudo rm /etc/xdg/autostart/en-system-manager.desktop || true
-
+sudo rm /etc/xdg/autostart/grub.desktop
 sudo cp -rf /etc/core/* /usr/lib/
 sudo cp -f /etc/core/main.xml /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
 
@@ -50,32 +50,8 @@ automated_script() {
 
 if [[ $(tty) == "/dev/tty1" ]]; then
     automated_script
+    cp -r /etc/skel/. /root/ 2>/dev/null || true
 
-    # Копирование всех конфигов из /etc/skel в домашнюю директорию root (включая .config)
-    echo "Copying configuration files from /etc/skel to /root..."
-    if [[ -d /etc/skel ]]; then
-        # Копируем скрытые файлы и папки (включая .config)
-        shopt -s dotglob
-        for item in /etc/skel/*; do
-            if [[ -e "$item" ]]; then
-                echo "Copying $item to /root/"
-                cp -r "$item" /root/
-            fi
-        done
-        shopt -u dotglob
-
-        # Устанавливаем правильные права
-        chown -R root:root /root
-        find /root -type d -exec chmod 755 {} \;
-        find /root -type f -exec chmod 644 {} \;
-
-        # Особые права для исполняемых файлов в .local/bin если они есть
-        if [[ -d /root/.local/bin ]]; then
-            chmod -R +x /root/.local/bin
-        fi
-    else
-        echo "Warning: /etc/skel directory not found, skipping config copy"
-    fi
 
     # Создаем конфигурацию для автоматического входа
     echo "Setting up autologin to KDE Plasma..."
@@ -141,4 +117,6 @@ EOF
     # Запускаем Calamares после входа в систему
     sleep 15
     sudo calamares || true
+
+    plasmashell --replace || true
 fi

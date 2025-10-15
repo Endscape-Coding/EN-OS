@@ -7,7 +7,7 @@ welcomeExpandingLogo: true
 windowExpanding: normal
 windowExpanding: noexpand
 
-windowSize: 1024px,576px
+windowSize: 1200px,715px
 
 windowPlacement: center
 
@@ -18,10 +18,10 @@ navigation: widget
 strings:
     productName:         EN-OS
     shortProductName:    EN-OS
-    version:             0.6 BETA
-    shortVersion:        0.6
-    versionedName:       EN-OS 0.6 BETA
-    shortVersionedName:  0.6
+    version:             0.8 BETA
+    shortVersion:        0.8
+    versionedName:       EN-OS 0.8 BETA
+    shortVersionedName:  0.8
     bootloaderEntryName: EN-OS
 
 images:
