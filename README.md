@@ -206,7 +206,7 @@ Reboot your computer and select the USB drive from your BIOS/UEFI boot menu.
 
 | Version               | Status              | Size    | Link                                                                                                |
 | :-------------------- | :------------------ | :------ | :-------------------------------------------------------------------------------------------------- |
-| **Live EN-OS Beta 0.6** | Beta                | ~4.6 GB | [Download]([https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download))         |
+| **Live EN-OS Beta 0.8** | Beta                | ~4.6 GB | [Download]([https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download))         |
 | **Developer Edition** | 🚧 Under Development | -       | *Coming Soon* |
 | **Gaming Edition** | 🚧 Under Development | -       | *Coming Soon* |
 
