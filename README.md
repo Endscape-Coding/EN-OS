@@ -11,7 +11,7 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/Status-Beta%200.4-orange?style=for-the-badge)](https://github.com/Endscape-Coding/EN-OS/releases)
+[![Status](https://img.shields.io/badge/Status-Beta%200.8-orange?style=for-the-badge)](https://github.com/Endscape-Coding/EN-OS/releases)
 [![Arch Based](https://img.shields.io/badge/Based%20On-Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux)](https://archlinux.org)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-6e48aa?style=for-the-badge&logo=github)](https://github.com/Endscape-Coding/EN-OS)
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/Linux_EN_OS)
