@@ -38,7 +38,7 @@
 
 Наша философия — предоставить пользователю готовую к работе систему, избавляя от необходимости долгой настройки и ручной установки драйверов. EN-OS идеально подходит для повседневного использования, разработки, мультимедиа и игр.
 
->  **Текущий статус:** `Beta 0.8` 
+>  **Текущий статус:** `Beta 0.6` 
 
 ---
 
@@ -72,7 +72,7 @@
 ### 📥 Установка
 
 #### 1. Скачайте образ
-Загрузите последнюю версию EN-OS со страницы [sourceforge](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download).
+Загрузите последнюю версию EN-OS со страницы [релизов](https://github.com/Endscape-Coding/EN-OS/releases)(скоро будет) или по прямой ссылке.
 
 #### 2. Запишите образ на USB
 Используйте любую программу для записи ISO-образов на USB-накопитель.
@@ -96,7 +96,7 @@
 
 | Версия                | Статус              | Размер  | Ссылка                                                                                              |
 | :-------------------- | :------------------ | :------ | :-------------------------------------------------------------------------------------------------- |
-| **Live EN-OS Beta 0.6** | Beta                | ~4.6 GB | [Скачать](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download)           |
+| **Live EN-OS Beta 0.6** | Beta                | ~4.2 GB | [Скачать](https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ)           |
 | **Developer Edition** | 🚧 В разработке      | -       | *Скоро* |
 | **Gaming Edition** | 🚧 В разработке      | -       | *Скоро* |
 
@@ -148,7 +148,7 @@ EN-OS — это проект с открытым исходным кодом, �
 
 Our philosophy is to provide a system that is ready for immediate use, saving you from lengthy setup processes and manual driver installations. EN-OS is ideal for daily use, development, multimedia, and gaming.
 
-> **Current Status:** `Beta 0.8`.
+> **Current Status:** `Beta 0.6`.
 
 ---
 
@@ -182,7 +182,7 @@ Our philosophy is to provide a system that is ready for immediate use, saving yo
 ### 📥 Installation
 
 #### 1. Download the ISO
-Download the latest version of EN-OS from the [Sourceforge](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download) page.
+Download the latest version of EN-OS from the [Releases](https://github.com/Endscape-Coding/EN-OS/releases) page or use the direct link.
 
 #### 2. Create a Bootable USB
 Use any preferred software to flash the ISO image to a USB drive.
@@ -206,7 +206,7 @@ Reboot your computer and select the USB drive from your BIOS/UEFI boot menu.
 
 | Version               | Status              | Size    | Link                                                                                                |
 | :-------------------- | :------------------ | :------ | :-------------------------------------------------------------------------------------------------- |
-| **Live EN-OS Beta 0.6** | Beta                | ~4.6 GB | [Download]([https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download))         |
+| **Live EN-OS Beta 0.6** | Beta                | ~4.3 GB | [Download](https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ)         |
 | **Developer Edition** | 🚧 Under Development | -       | *Coming Soon* |
 | **Gaming Edition** | 🚧 Under Development | -       | *Coming Soon* |
 
