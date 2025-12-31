@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/Endscape-Coding/EN-OS/blob/main/Images/logo.png" alt="EN-OS Logo">
+<img src="https://github.com/Endscape-Coding/EN-OS/blob/main/Images/logofl.png" alt="EN-OS Logo">
 
 # EN-OS
 
