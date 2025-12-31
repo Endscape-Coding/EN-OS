@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://img.icons8.com/?size=100&id=123404&format=png&color=6E48AA" alt="EN-OS Logo">
+<img src="https://github.com/Endscape-Coding/EN-OS/blob/main/Images/logo.png" alt="EN-OS Logo">
 
 # EN-OS
 
