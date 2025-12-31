@@ -185,11 +185,11 @@ Our philosophy is to provide a system that is ready for immediate use, saving yo
 
 | Desktop | Application Menu |
 | :---: | :---: |
-| ![Desktop](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/desktop.png?raw=true) | ![Applications](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/apps.png?raw=true) |
+| ![Desktop](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/desktop.png) | ![Applications](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/apps.png) |
 
 | Driver Installer | Calamares Installer |
 | :---: | :---: |
-| ![Driver Installer](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/driver.png?raw=true) | ![Calamares](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/calamares.png?raw=true) |
+| ![Driver Installer](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/driver.png) | ![Calamares](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/calamares.png) |
 
 </div>
 
