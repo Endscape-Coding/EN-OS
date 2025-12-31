@@ -68,11 +68,11 @@
 
 | Рабочий стол | Меню приложений |
 | :---: | :---: |
-| ![Desktop](https://github.com/Endscape-Coding/EN-OS/blob/main/images/desktop.png?raw=true) | ![Applications](https://github.com/Endscape-Coding/EN-OS/blob/main/images/apps.png?raw=true) |
+| ![Desktop](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/desktop.png) | ![Applications](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/apps.png) |
 
 | Установщик драйверов | Установщик Calamares |
 | :---: | :---: |
-| ![Driver Installer](https://github.com/Endscape-Coding/EN-OS/blob/main/images/driver.png?raw=true) | ![Calamares](https://github.com/Endscape-Coding/EN-OS/blob/main/images/calamares.png?raw=true) |
+| ![Driver Installer](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/driver.png) | ![Calamares](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/calamares.png) |
 
 </div>
 
