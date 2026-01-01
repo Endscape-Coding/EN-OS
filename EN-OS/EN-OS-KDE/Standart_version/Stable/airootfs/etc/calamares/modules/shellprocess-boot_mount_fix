@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: no
+# SPDX-License-Identifier: CC0-1.0
+
+dontChroot: false
+timeout: 120
+
+script:
+    - |
+      echo "=== BOOT MOUNT FIX ==="
+
+      if mountpoint -q /boot; then
+          echo "✓ /boot is mounted"
+          ls -la /boot/
+      else
+          echo "⚠ /boot not mounted, attempting to mount"
+          mount /boot 2>/dev/null || true
+      fi
+
+      echo "=== BOOT FIX COMPLETE ==="

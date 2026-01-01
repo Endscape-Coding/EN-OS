@@ -4,14 +4,14 @@
 
 # EN-OS
 
-**Современный дистрибутив на базе Arch Linux с рабочим столом KDE Plasma.** <br>
-***A modern Arch Linux-based distribution featuring the KDE Plasma desktop.***
+**Современный дистрибутив на базе Arch Linux с рабочим столом KDE Plasma 6.** <br>
+***A modern Arch Linux-based distribution featuring the KDE Plasma 6 desktop.***
 
 </div>
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/Status-Beta%200.8-orange?style=for-the-badge)](https://github.com/Endscape-Coding/EN-OS/releases)
+[![Status](https://img.shields.io/badge/Status-Release%201.0-success?style=for-the-badge)](https://github.com/Endscape-Coding/EN-OS/releases)
 [![Arch Based](https://img.shields.io/badge/Based%20On-Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux)](https://archlinux.org)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-6e48aa?style=for-the-badge&logo=github)](https://github.com/Endscape-Coding/EN-OS)
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/Linux_EN_OS)
@@ -34,22 +34,31 @@
 
 ### 🚀 Что такое EN-OS?
 
-**EN-OS** — это современный, удобный и производительный дистрибутив Linux, построенный на надежном фундаменте Arch Linux. Он поставляется с предварительно настроенной средой рабочего стола **KDE Plasma**, созданной для эстетического удовольствия и максимальной продуктивности прямо "из коробки".
+**EN-OS** — это современный, удобный и производительный дистрибутив Linux, построенный на надежном фундаменте Arch Linux. Он поставляется с предварительно настроенной новейшей средой рабочего стола **KDE Plasma 6 на Wayland**, созданной для эстетического удовольствия и максимальной продуктивности прямо "из коробки".
 
 Наша философия — предоставить пользователю готовую к работе систему, избавляя от необходимости долгой настройки и ручной установки драйверов. EN-OS идеально подходит для повседневного использования, разработки, мультимедиа и игр.
 
->  **Текущий статус:** `Beta 0.8` 
+>  **Текущий статус:** **`Release 1.0 "Leningrad Region"`** — стабильная релизная версия.
 
 ---
 
 ### ✨ Особенности
 
--   **🎯 Готовность к работе:** Все необходимые драйверы, библиотеки и приложения предустановлены. Система работает сразу после загрузки.
--   **🎨 Прекрасный интерфейс:** Элегантная темная тема для KDE Plasma с плавными анимациями и современным дизайном. Больше тем в разработке!
--   **⚡ Высокая производительность:** Оптимизированное ядро и тщательно подобранный набор ПО обеспечивают быструю и отзывчивую работу системы.
--   **🔒 Безопасность:** Построен на базе Arch Linux, что гарантирует регулярные обновления и высокий уровень безопасности.
--   **📦 Продуманный набор ПО:** Включает приложения для офисной работы, мультимедиа, разработки и общения.
--   **🔧 Простая установка:** Интегрирован интуитивно понятный установщик Calamares.
+*   **🎯 Готовность к работе:** Все необходимое предустановлено. Система работает сразу после загрузки.
+*   **⚙️ Автоматическая оптимизация:**
+    *   **Z-RAM:** Автоматически настраивается и используется для увеличения эффективной оперативной памяти.
+*   **🎨 Красивый интерфейс:**
+    *   **KDE Plasma 6 + Wayland:** Используется новейшая версия с современным протоколом Wayland для лучшей производительности и безопасности.
+    *   **Единая красивая тема:** Согласованное оформление для всей системы, включая GRUB с красивой темой и сразу включенным `os-prober`.
+*   **🛠️ Удобство обслуживания:**
+    *   **Собственный репозиторий:** Быстрый доступ к стабильным пакетам и собственным настройкам EN-OS.
+    *   **Графический установщик драйверов:** Умный инструмент с GUI для автоматической установки последних драйверов (включая проприетарные NVIDIA), который подбирает оптимальную версию для вашей видеокарты.
+    *   **Графический установщик программ:** Модифицированный Pamac для удобного поиска и установки приложений.
+    *   **Надежные обновления:** Система обновлений настроена так, чтобы минимизировать риск поломки.
+*   **⚡ Производительность и надежность:**
+    *   **Поддержка BTRFS:** Работает с современной файловой системой BTRFS, включая предустановленные утилиты для работы с ней.
+    *   **Компактность:** Система оптимизирована и занимает мало места.
+*   **🔧 Простая установка:** Красивый и интуитивно понятный установщик Calamares.
 
 ---
 
@@ -59,11 +68,11 @@
 
 | Рабочий стол | Меню приложений |
 | :---: | :---: |
-| ![Desktop](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/desktop.png?raw=true) | ![Applications](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/apps.png?raw=true) |
+| ![Desktop](https://github.com/Endscape-Coding/EN-OS/blob/main/images/desktop.png?raw=true) | ![Applications](https://github.com/Endscape-Coding/EN-OS/blob/main/images/apps.png?raw=true) |
 
-| Терминал Konsole | Параметры системы |
+| Установщик драйверов | Установщик Calamares |
 | :---: | :---: |
-| ![Terminal](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/terminal.png?raw=true) | ![Settings](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/settings.png?raw=true) |
+| ![Driver Installer](https://github.com/Endscape-Coding/EN-OS/blob/main/images/driver.png?raw=true) | ![Calamares](https://github.com/Endscape-Coding/EN-OS/blob/main/images/calamares.png?raw=true) |
 
 </div>
 
@@ -72,18 +81,16 @@
 ### 📥 Установка
 
 #### 1. Скачайте образ
-Загрузите последнюю версию EN-OS со страницы [sourceforge](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download).
+Загрузите версию **EN-OS 1.0 "Leningrad Region"** со страницы [SourceForge](https://sourceforge.net/projects/en-os/).
 
 #### 2. Запишите образ на USB
 Используйте любую программу для записи ISO-образов на USB-накопитель.
 
--   **Windows:** [Rufus](https://rufus.ie/), [Ventoy](https://www.ventoy.net/).
--   **macOS/Linux:** [Balena Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/).
--   **Командная строка Linux (продвинутый способ):**
+*   **Windows:** [Rufus](https://rufus.ie/), [Ventoy](https://www.ventoy.net/).
+*   **macOS/Linux:** [Balena Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/).
+*   **Командная строка Linux:**
     ```bash
-    # ВНИМАНИЕ: Замените /dev/sdX на ваше устройство.
-    # Неправильное имя устройства приведет к потере данных!
-    # Проверьте имя командой lsblk.
+    # ВНИМАНИЕ: Замените /dev/sdX на ваше устройство (например, /dev/sdb).
     sudo dd if=path/to/en-os.iso of=/dev/sdX bs=4M status=progress oflag=sync
     ```
 
@@ -94,11 +101,11 @@
 
 ### 📀 Скачать
 
-| Версия                | Статус              | Размер  | Ссылка                                                                                              |
-| :-------------------- | :------------------ | :------ | :-------------------------------------------------------------------------------------------------- |
-| **Live EN-OS Beta 0.8** | Beta                | ~4.6 GB | [Скачать](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download)           |
-| **Developer Edition** | 🚧 В разработке      | -       | *Скоро* |
-| **Gaming Edition** | 🚧 В разработке      | -       | *Скоро* |
+| Версия | Статус | Размер | Ссылка |
+| :--- | :--- | :--- | :--- |
+| **EN-OS 1.0 "Leningrad Region"** | **Релиз** | ~4.6 GB | [Скачать (SourceForge)](https://sourceforge.net/projects/en-os/) |
+| **Developer Edition** | 🚧 В разработке | - | *Скоро* |
+| **Gaming Edition** | 🚧 В разработке | - | *Скоро* |
 
 ---
 
@@ -106,9 +113,9 @@
 
 Присоединяйтесь к нам, чтобы быть в курсе новостей, получать помощь и делиться идеями!
 
--   **💬 Telegram-канал**: [@Linux_EN_OS](https://t.me/Linux_EN_OS) — Новости и анонсы
--   **👥 Telegram-чат**: [@enos_community](https://t.me/enos_community) — Обсуждения и поддержка
--   **🐛 Баг-репорты**: [@enbugreports](https://t.me/enbugreports) или [GitHub Issues](https://github.com/Endscape-Coding/EN-OS/issues) — Сообщения об ошибках
+*   **💬 Telegram-канал**: [@Linux_EN_OS](https://t.me/Linux_EN_OS) — Новости и анонсы
+*   **👥 Telegram-чат**: [@enos_community](https://t.me/enos_community) — Обсуждения и поддержка
+*   **🐛 Баг-репорты**: [@enbugreports](https://t.me/enbugreports) или [GitHub Issues](https://github.com/Endscape-Coding/EN-OS/issues) — Сообщения об ошибках
 
 ---
 
@@ -116,10 +123,10 @@
 
 EN-OS — это проект с открытым исходным кодом, который создается сообществом. Мы будем рады любой помощи!
 
--   **Тестирование**: Скачивайте бета-версии и сообщайте об ошибках.
--   **Разработка**: Предлагайте улучшения кода через Pull Requests на [GitHub](https://github.com/Endscape-Coding/EN-OS).
--   **Документация**: Помогайте улучшать этот README и другую документацию.
--   **Распространение**: Расскажите о нашем проекте друзьям!
+*   **Тестирование**: Скачивайте релизы и сообщайте об ошибках.
+*   **Разработка**: Предлагайте улучшения кода через Pull Requests на [GitHub](https://github.com/Endscape-Coding/EN-OS).
+*   **Документация**: Помогайте улучшать этот README и другую документацию.
+*   **Распространение**: Расскажите о нашем проекте друзьям!
 
 ---
 
@@ -144,22 +151,31 @@ EN-OS — это проект с открытым исходным кодом, �
 
 ### 🚀 What is EN-OS?
 
-**EN-OS** is a modern, user-friendly, and powerful Linux distribution built on the solid foundation of Arch Linux. It comes with a pre-configured **KDE Plasma** desktop environment, meticulously tuned for an aesthetically pleasing and productive experience right out of the box.
+**EN-OS** is a modern, user-friendly, and powerful Linux distribution built on the solid foundation of Arch Linux. It comes with a pre-configured **KDE Plasma 6 on Wayland** desktop environment, meticulously tuned for an aesthetically pleasing and productive experience right out of the box.
 
 Our philosophy is to provide a system that is ready for immediate use, saving you from lengthy setup processes and manual driver installations. EN-OS is ideal for daily use, development, multimedia, and gaming.
 
-> **Current Status:** `Beta 0.8`.
+> **Current Status:** **`Release 1.0 "Leningrad Region"`** — stable release version.
 
 ---
 
 ### ✨ Features
 
--   **🎯 Ready to Go:** All essential drivers, libraries, and applications are pre-installed. The system works immediately after booting.
--   **🎨 Beautiful Interface:** An elegant dark theme for KDE Plasma with smooth animations and a modern design. More themes are on the way!
--   **⚡ High Performance:** A tuned kernel and a carefully selected software suite ensure a fast and responsive system.
--   **🔒 Secure:** Built on Arch Linux, guaranteeing timely updates and a high level of security.
--   **📦 Curated Software:** Includes a suite of applications for office tasks, multimedia, development, and communication.
--   **🔧 Easy Installation:** Intuitive Calamares installer.
+*   **🎯 Ready to Go:** Everything essential is pre-installed. The system works immediately after booting.
+*   **⚙️ Automatic Optimization:**
+    *   **Z-RAM:** Automatically configured and used to increase effective RAM.
+*   **🎨 Beautiful Interface:**
+    *   **KDE Plasma 6 + Wayland:** The latest version with modern Wayland protocol for better performance and security.
+    *   **Unified Beautiful Theme:** Coherent styling for the entire system, including GRUB with a beautiful theme and `os-prober` enabled by default.
+*   **🛠️ Maintenance Convenience:**
+    *   **Own Repository:** Fast access to stable packages and EN-OS customizations.
+    *   **Graphical Driver Installer:** Smart GUI tool for automatic installation of the latest drivers (including proprietary NVIDIA), which selects the optimal version for your graphics card.
+    *   **Graphical Software Installer:** Modified Pamac for convenient application search and installation.
+    *   **Reliable Updates:** The update system is configured to minimize the risk of breakage.
+*   **⚡ Performance & Reliability:**
+    *   **BTRFS Support:** Works with the modern BTRFS filesystem, including pre-installed utilities for managing it.
+    *   **Compact:** The system is optimized and takes up little space.
+*   **🔧 Easy Installation:** Beautiful and intuitive Calamares installer.
 
 ---
 
@@ -171,9 +187,9 @@ Our philosophy is to provide a system that is ready for immediate use, saving yo
 | :---: | :---: |
 | ![Desktop](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/desktop.png?raw=true) | ![Applications](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/apps.png?raw=true) |
 
-| Konsole Terminal | System Settings |
+| Driver Installer | Calamares Installer |
 | :---: | :---: |
-| ![Terminal](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/terminal.png?raw=true) | ![Settings](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/settings.png?raw=true) |
+| ![Driver Installer](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/driver.png?raw=true) | ![Calamares](https://github.com/Endscape-Coding/Endscape-Coding.github.io/blob/main/images/calamares.png?raw=true) |
 
 </div>
 
@@ -182,18 +198,16 @@ Our philosophy is to provide a system that is ready for immediate use, saving yo
 ### 📥 Installation
 
 #### 1. Download the ISO
-Download the latest version of EN-OS from the [Sourceforge](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download) page.
+Download the **EN-OS 1.0 "Leningrad Region"** version from the [SourceForge](https://sourceforge.net/projects/en-os/) page.
 
 #### 2. Create a Bootable USB
 Use any preferred software to flash the ISO image to a USB drive.
 
--   **Windows:** [Rufus](https://rufus.ie/), [Ventoy](https://www.ventoy.net/).
--   **macOS/Linux:** [Balena Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/).
--   **Linux Command Line (Advanced):**
+*   **Windows:** [Rufus](https://rufus.ie/), [Ventoy](https://www.ventoy.net/).
+*   **macOS/Linux:** [Balena Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/).
+*   **Linux Command Line:**
     ```bash
-    # WARNING: Replace /dev/sdX with your actual device.
-    # Using the wrong device name will result in data loss!
-    # Double-check with the 'lsblk' command.
+    # WARNING: Replace /dev/sdX with your actual device (e.g., /dev/sdb).
     sudo dd if=path/to/en-os.iso of=/dev/sdX bs=4M status=progress oflag=sync
     ```
 
@@ -204,11 +218,11 @@ Reboot your computer and select the USB drive from your BIOS/UEFI boot menu.
 
 ### 📀 Download
 
-| Version               | Status              | Size    | Link                                                                                                |
-| :-------------------- | :------------------ | :------ | :-------------------------------------------------------------------------------------------------- |
-| **Live EN-OS Beta 0.8** | Beta                | ~4.6 GB | [Download]([https://drive.google.com/uc?export=download&id=1FuauymjLwglj8ojJOP7AIzIFxinbgnqJ](https://sourceforge.net/projects/en-os/files/EN-OS-0.8-BETA/EN-OS-EN-OS%200.8%20beta2025.09.28-x86_64.iso/download))         |
-| **Developer Edition** | 🚧 Under Development | -       | *Coming Soon* |
-| **Gaming Edition** | 🚧 Under Development | -       | *Coming Soon* |
+| Version | Status | Size | Link |
+| :--- | :--- | :--- | :--- |
+| **EN-OS 1.0 "Leningrad Region"** | **Release** | ~4.6 GB | [Download (SourceForge)](https://sourceforge.net/projects/en-os/) |
+| **Developer Edition** | 🚧 Under Development | - | *Coming Soon* |
+| **Gaming Edition** | 🚧 Under Development | - | *Coming Soon* |
 
 ---
 
@@ -216,9 +230,9 @@ Reboot your computer and select the USB drive from your BIOS/UEFI boot menu.
 
 Join us to stay updated, get help, and share your ideas!
 
--   **💬 Telegram Channel**: [@Linux_EN_OS](https://t.me/Linux_EN_OS) — News and announcements
--   **👥 Telegram Chat**: [@enos_community](https://t.me/enos_community) — Discussions and support
--   **🐛 Bug Reports**: [@enbugreports](https://t.me/enbugreports) or [GitHub Issues](https://github.com/Endscape-Coding/EN-OS/issues) — Report bugs here
+*   **💬 Telegram Channel**: [@Linux_EN_OS](https://t.me/Linux_EN_OS) — News and announcements
+*   **👥 Telegram Chat**: [@enos_community](https://t.me/enos_community) — Discussions and support
+*   **🐛 Bug Reports**: [@enbugreports](https://t.me/enbugreports) or [GitHub Issues](https://github.com/Endscape-Coding/EN-OS/issues) — Report bugs here
 
 ---
 
@@ -226,10 +240,10 @@ Join us to stay updated, get help, and share your ideas!
 
 EN-OS is an open-source project driven by the community. We welcome all contributions!
 
--   **Testing**: Download beta releases and report any bugs you find.
--   **Development**: Suggest code improvements via Pull Requests on [GitHub](https://github.com/Endscape-Coding/EN-OS).
--   **Documentation**: Help us improve this README and other documentation.
--   **Spreading the word**: Tell your friends about our project!
+*   **Testing**: Download releases and report any bugs you find.
+*   **Development**: Suggest code improvements via Pull Requests on [GitHub](https://github.com/Endscape-Coding/EN-OS).
+*   **Documentation**: Help us improve this README and other documentation.
+*   **Spreading the word**: Tell your friends about our project!
 
 ---
 
