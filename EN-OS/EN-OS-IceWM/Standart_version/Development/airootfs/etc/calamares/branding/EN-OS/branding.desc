@@ -18,9 +18,9 @@ navigation: widget
 strings:
     productName:         EN-OS
     shortProductName:    EN-OS
-    version:             1.0
-    shortVersion:        1.0
-    versionedName:       EN-OS 1.0 Leningrad-Region IceWM edition
+    version:             1.1
+    shortVersion:        1.1
+    versionedName:       EN-OS 1.1 Leningrad-Region IceWM edition
     shortVersionedName:  EN-OS
     bootloaderEntryName: EN-OS
 
