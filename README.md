@@ -116,6 +116,7 @@
 *   **💬 Telegram-канал**: [@Linux_EN_OS](https://t.me/Linux_EN_OS) — Новости и анонсы
 *   **👥 Telegram-чат**: [@enos_community](https://t.me/enos_community) — Обсуждения и поддержка
 *   **🐛 Баг-репорты**: [@enbugreports](https://t.me/enbugreports) или [GitHub Issues](https://github.com/Endscape-Coding/EN-OS/issues) — Сообщения об ошибках
+*   **Вики**: [GitHub Wiki](https://github.com/Endscape-Coding/EN-OS/wiki) — Инструкции и возможно, ответы на ваши вопросы
 
 ---
 
