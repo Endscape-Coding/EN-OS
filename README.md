@@ -81,7 +81,7 @@
 ### 📥 Установка
 
 #### 1. Скачайте образ
-Загрузите версию **EN-OS 1.0 "Leningrad Region"** со страницы [SourceForge](https://sourceforge.net/projects/en-os/).
+Загрузите версию **EN-OS 1.0 "Leningrad Region"** со страницы [Загрузок](https://endscape-coding.github.io/downloads.html).
 
 #### 2. Запишите образ на USB
 Используйте любую программу для записи ISO-образов на USB-накопитель.
