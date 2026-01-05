@@ -1,0 +1,35 @@
+IceMint is a port of the Mint Y Dark theme from Linux mint for IceWM,this colors is available
+
+-Aqua
+-Blue
+-Brown
+-Green
+-Grey
+-Orange
+-Pink
+-Purple
+-Red
+-Teal
+
+--------------instalation----------------
+
+copy the folder on 
+
+/usr/share/icewm/themes/
+
+or in this another folder
+
+/home/"username"/.icewm/themes/
+
+these packages are not necessary for the operation of IceMint, but I recommend installing them:
+
+mint-themes
+mint-y-icons
+lxappearance(to set the Mint theme and icons)
+
+the installation of these packages may vary depending on your distribution
+
+
+
+
+----ItzSelenux

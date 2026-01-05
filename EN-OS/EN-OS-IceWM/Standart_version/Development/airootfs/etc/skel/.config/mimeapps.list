@@ -1,0 +1,8 @@
+[Default Applications]
+text/x-python3=userapp-python3-8R8JI3.desktop
+
+[Added Associations]
+text/x-python3=userapp-python3-8R8JI3.desktop;
+application/x-shellscript=micro.desktop;
+application/x-alpm-package=org.kde.ark.desktop;
+application/x-desktop=org.kde.kate.desktop;

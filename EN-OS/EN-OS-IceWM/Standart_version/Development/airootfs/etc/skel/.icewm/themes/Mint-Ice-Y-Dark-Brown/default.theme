@@ -1,0 +1,94 @@
+ThemeDescription="Replica del actual Mint-Y-Dark para Linux Mint adaptado a IceWM"
+
+ThemeAuthor="IamTheMasterRoy"
+
+Look=flat
+Gradients="taskbuttonactive.xpm taskbuttonbg.xpm taskbuttonminimized.xpm dialogbg.xpm logoutbg.xpm workspacebuttonactive.xpm menusel.xpm"
+
+RolloverButtonsSupported=1
+
+TitleBarHeight=28
+TitleBarJustify=50
+TrayDrawBevel=0
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+ScrollBarX=16
+ScrollBarY=16
+BorderSizeX=4
+BorderSizeY=4
+CornerSizeX=20
+CornerSizeY=20
+DlgBorderSizeX=4
+DlgBorderSizeY=4
+
+#DialogBox
+ColorDialog=                               "rgb:40/40/40"
+ColorDialogSelectionText=                  "rgb:47/47/47"
+
+#taskbar
+ColorNormalBorder="rgb:2b/2b/2b"
+ColorActiveBorder="rgb:2b/2b/2b"
+ColorActiveTitleBar="rgb:2b/2b/2b"
+ColorNormalTitleBar="rgb:2b/2b/2b"
+ColorNormalButton="rgb:2b/2b/2b"
+ColorNormalTitleBarText="rgb:FF/FF/FF"
+ColorActiveTitleBarText="rgb:FF/FF/FF"
+ColorNormalMenu="rgb:2b/2b/2b"
+ColorActiveMenuItem="rgb:9C/7E/65"
+ColorNormalMenuItemText="rgb:FF/FF/FF"
+ColorActiveMenuItemText="rgb:FF/FF/FF"
+ColorDisabledMenuItemText="rgb:38/38/38"
+ColorMoveSizeStatus="rgb:9C/7E/65"
+ColorMoveSizeStatusText="rgb:FF/FF/FF"
+ColorInputSelection="rgb:9C/7E/65"
+
+#Menu
+ColorActiveMenu=                           "rgb:9C/7E/65"
+ColorNormalMenu=                           "rgb:2b/2b/2b"
+ColorActiveMenuItem=                       "rgb:2C/30/32"
+ColorNormalMenuItemText=                   "rgb:F8/F9/FA"
+ColorActiveMenuItemText=                   "rgb:F8/F9/FA"
+ColorActiveMenuItemShadow=                 "rgb:FF/FF/FF"
+ColorDisabledMenuItemText=                 "rgb:38/38/38"
+ColorDisabledMenuItemShadow=               "rgb:00/00/00"
+
+#taskbar parameters
+ColorDefaultTaskBar="rgb:2b/2b/2b"
+ColorNormalTaskBarApp="rgb:2b/2b/2b"
+ColorNormalTaskBarAppText="rgb:FF/FF/FF"
+ColorActiveTaskBarApp="rgb:9C/7E/65"
+ColorActiveTaskBarAppText="rgb:FF/FF/FF"
+ColorMinimizedTaskBarApp="rgb:2b/2b/2b"
+ColorMinimizedTaskBarAppText="rgb:b3/b3/b3"
+
+#listbox
+ColorListBox="rgb:CC/CC/CC"
+ColorListBoxText="rgb:00/00/00"
+ColorListBoxSelection="rgb:CC/CC/FF"
+ColorListBoxSelectionText="rgb:00/00/00"
+
+#Dialog box
+ColorDialog="rgb:2b/2b/2b"
+
+#Tooltip text
+ColorToolTip="rgb:2b/2b/2b"
+ColorToolTipText="rgb:FF/FF/FF"
+
+#scrollbar
+ColorScrollBar="rgb:C0/C0/C0"
+ColorScrollBarSlider="rgb:C0/C0/C0"
+ColorScrollBarButtonArrow="rgb:C0/C0/C0"
+
+#Quick switch
+ColorQuickSwitch="rgb:2b/2b/2b"
+ColorQuickSwitchActive="rgb:9C/7E/65"
+ColorQuickSwitchText="rgb:FF/FF/FF"
+ColorClock="rgb:2b/2b/2b"
+ColorClockText="rgb:FF/FF/FF"
+
+#background parameters
+DesktopBackgroundCenter=0
+DesktopBackgroundScaled=1
+#DesktopBackgroundImage="backgound.png"

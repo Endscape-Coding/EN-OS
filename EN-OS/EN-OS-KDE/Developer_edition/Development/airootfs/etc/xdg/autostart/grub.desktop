@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=GrubConfig
+Comment=Set EN-OS Grub Config
+Exec=bash -c "sudo /etc/EN-OS-Grub/install.sh; rm -f /etc/xdg/autostart/grub.desktop"
+Hidden=false
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-after=panel
+Categories=System
+Terminal=true

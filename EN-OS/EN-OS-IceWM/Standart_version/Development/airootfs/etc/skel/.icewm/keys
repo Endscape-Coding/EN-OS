@@ -1,0 +1,76 @@
+#!/usr/bin/sh
+key "Super+d" showdesktop
+key "Super+Tab" nextwindow
+key "Super+Shift+Tab" prevwindow
+key "Alt+Tab" nextwindow
+key "Alt+Shift+Tab" prevwindow
+key "Super+m" windowmaximize
+key "Super+r" windowrestore
+key "Super+Up" windowmaximize
+key "Super+Down" windowiconify
+key "Super+Left" windowmoveleft
+key "Super+Right" windowmoveright
+key "Alt+F4" windowclose
+key "Alt+F5" windowminimize
+key "Alt+F7" windowmove
+key "Alt+F8" windowsize
+key "Alt+F9" windowminimize
+key "Alt+F10" windowmaximize
+key "Ctrl+Alt+Delete" icewm-shutdown
+
+key "Ctrl+F" firefox &
+key "Ctrl+Alt+t" konsole &
+key "Ctrl+Shift+t" konsole &
+key "Super+e" thunar &
+key "Ctrl+E" thunar &
+key "Super+f" thunar
+key "Super+t" xterm &
+key "Super+w" firefox &
+key "Super+c" chromium &
+key "Ctrl+Alt+c" chromium &
+key "Super+a" micro &
+key "Super+v" micro &
+
+key "Print" flameshot &
+key "Super+s" flameshot gui &
+key "XF86AudioRaiseVolume" amixer -q set Master 5%+ &
+key "XF86AudioLowerVolume" amixer -q set Master 5%- &
+key "XF86AudioMute" amixer -q set Master toggle &
+key "XF86AudioPlay" playerctl play-pause &
+key "XF86AudioStop" playerctl stop &
+key "XF86AudioPrev" playerctl previous &
+key "XF86AudioNext" playerctl next &
+
+key "Ctrl+Alt+Left" gotodesk left
+key "Ctrl+Alt+Right" gotodesk right
+key "Ctrl+Alt+Up" gotodesk prev
+key "Ctrl+Alt+Down" gotodesk next
+key "Super+1" gotodesk 1
+key "Super+2" gotodesk 2
+key "Super+3" gotodesk 3
+key "Super+4" gotodesk 4
+key "Super+5" gotodesk 5
+key "Super+6" gotodesk 6
+key "Super+7" gotodesk 7
+key "Super+8" gotodesk 8
+key "Super+9" gotodesk 9
+key "Ctrl+Alt+1" sendtoworkspace 1
+key "Ctrl+Alt+2" sendtoworkspace 2
+key "Ctrl+Alt+3" sendtoworkspace 3
+key "Ctrl+Alt+4" sendtoworkspace 4
+
+key "Super" rootmenu
+key "Alt+Space" windowmenu
+key "Super+l" xflock4
+key "Ctrl+Alt+l" xflock4
+key "Super+x" icewm-menu-favorites
+
+key "Ctrl+Alt+Insert" xterm -e "sudo systemctl restart NetworkManager"
+key "Ctrl+Alt+BackSpace" systemctl restart sddm
+
+key "Super+n" nm-connection-editor &
+key "Super+b" blueman-manager &
+key "Ctrl+Alt+p" pavucontrol &
+key "Super+p" flameshot gui &
+key "Super+i" konsole &
+key "Super+h" konsole -e "htop" &

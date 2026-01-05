@@ -1,0 +1,14 @@
+[Unit]
+Description=EN-OS Post Installation Script
+After=graphical.target network.target sddm.service plasma-workspace.target
+Requires=graphical.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/EN-OS/scripts/postinstall.sh
+RemainAfterExit=yes
+User=root
+
+[Install]
+WantedBy=graphical.target

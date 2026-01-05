@@ -1,0 +1,4 @@
+#!/usr/bin/sh
+pasystray &
+nm-applet &
+feh --bg-fill /usr/share/wallpapers/EN-OS/EN-OS.jpg &

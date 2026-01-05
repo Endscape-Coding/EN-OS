@@ -1,0 +1,6 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Exec=/bin/bash -c 'kwriteconfig6 --file powermanagementprofilesrc --group AC --group DimDisplay --key idleTime 0; kwriteconfig6 --file powermanagementprofilesrc --group AC --group DPMSControl --key idleTime 0; kwriteconfig6 --file kscreenlockerrc --group Daemon --key Autolock false'
+X-KDE-Autostart-enabled=true
+Name=Disable Power Saving

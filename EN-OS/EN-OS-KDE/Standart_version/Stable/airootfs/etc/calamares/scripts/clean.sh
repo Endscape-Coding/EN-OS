@@ -59,6 +59,7 @@ clean_temporary_files() {
     command -v paccache >/dev/null 2>&1 && paccache -rk1 2>/dev/null || true
     rm -rf /var/log/calamares /tmp/calamares-* /var/tmp/calamares-* 2>/dev/null || true
     rm -f /root/calamares.log /home/*/calamares.log 2>/dev/null || true
+    rm -f /root/.config/autostart/disable-power.desktop
     ok "Временные файлы очищены"
 }
 

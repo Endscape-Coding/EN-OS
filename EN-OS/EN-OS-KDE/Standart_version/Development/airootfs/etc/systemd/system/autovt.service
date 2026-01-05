@@ -1,0 +1,11 @@
+[Unit]
+Description=Switch to VT1 after boot
+After=getty@tty1.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/chvt 1
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
