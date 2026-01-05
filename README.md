@@ -234,6 +234,7 @@ Join us to stay updated, get help, and share your ideas!
 *   **💬 Telegram Channel**: [@Linux_EN_OS](https://t.me/Linux_EN_OS) — News and announcements
 *   **👥 Telegram Chat**: [@enos_community](https://t.me/enos_community) — Discussions and support
 *   **🐛 Bug Reports**: [@enbugreports](https://t.me/enbugreports) or [GitHub Issues](https://github.com/Endscape-Coding/EN-OS/issues) — Report bugs here
+*   **Our Wiki**: [GitHub Wiki](https://github.com/Endscape-Coding/EN-OS/issues) — Instructions and answer for you questions
 
 ---
 
