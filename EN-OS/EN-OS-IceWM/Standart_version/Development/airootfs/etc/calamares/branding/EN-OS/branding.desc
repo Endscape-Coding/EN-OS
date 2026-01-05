@@ -20,7 +20,7 @@ strings:
     shortProductName:    EN-OS
     version:             1.0
     shortVersion:        1.0
-    versionedName:       EN-OS 1.0 Leningrad-Region
+    versionedName:       EN-OS 1.0 Leningrad-Region IceWM edition
     shortVersionedName:  EN-OS
     bootloaderEntryName: EN-OS
 
