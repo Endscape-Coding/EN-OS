@@ -198,7 +198,7 @@ Our philosophy is to provide a system that is ready for immediate use, saving yo
 ### 📥 Installation
 
 #### 1. Download the ISO
-Download the **EN-OS 1.0 "Leningrad Region"** version from the [SourceForge](https://sourceforge.net/projects/en-os/) page.
+Download the **EN-OS 1.0 "Leningrad Region"** version from the [Downloads Page](https://endscape-coding.github.io/downloads.html) page.
 
 #### 2. Create a Bootable USB
 Use any preferred software to flash the ISO image to a USB drive.
