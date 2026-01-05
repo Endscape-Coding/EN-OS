@@ -103,7 +103,7 @@
 
 | Версия | Статус | Размер | Ссылка |
 | :--- | :--- | :--- | :--- |
-| **EN-OS 1.0 "Leningrad Region"** | **Релиз** | ~4.6 GB | [Скачать (SourceForge)](https://sourceforge.net/projects/en-os/) [Скачать (Torrent magnet)](magnet:?xt=urn:btih:9a80d514f53859986c0eff2ccb74dc1947dcf749&dn=EN-OS-EN-OS%201.0%20Len_region2025.12.31-x86_64.iso&xl=4897609728) [Скачать (Yandex Disk)](https://disk.yandex.ru/d/b_-O61kvX9HOHQ)|
+| **EN-OS 1.0 "Leningrad Region"** | **Релиз** | ~4.6 GB | [Скачать (SourceForge)](https://sourceforge.net/projects/en-os/) [Скачать (Yandex Disk)](https://disk.yandex.ru/d/b_-O61kvX9HOHQ)|
 | **Developer Edition** | 🚧 В разработке | - | *Скоро* |
 | **Gaming Edition** | 🚧 В разработке | - | *Скоро* |
 
@@ -220,7 +220,7 @@ Reboot your computer and select the USB drive from your BIOS/UEFI boot menu.
 
 | Version | Status | Size | Link |
 | :--- | :--- | :--- | :--- |
-| **EN-OS 1.0 "Leningrad Region"** | **Release** | ~4.6 GB | [Download (SourceForge)](https://sourceforge.net/projects/en-os/) |
+| **EN-OS 1.0 "Leningrad Region"** | **Release** | ~4.6 GB | [Download (SourceForge)](https://sourceforge.net/projects/en-os/) [Download (Yandex Disk)](https://disk.yandex.ru/d/b_-O61kvX9HOHQ)|
 | **Developer Edition** | 🚧 Under Development | - | *Coming Soon* |
 | **Gaming Edition** | 🚧 Under Development | - | *Coming Soon* |
 
