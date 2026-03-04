@@ -1,21 +1,20 @@
 <div align="center">
 
-<img src="https://github.com/Endscape-Coding/EN-OS/blob/main/Images/logofl.png" alt="EN-OS Logo">
+<img src="https://github.com/Endscape-Coding/EN-OS/blob/main/Images/logofl.png" alt="EN-OS Utils Logo">
 
-# EN-OS
+# 🖥️ EN-OS-Utils
 
-**Современный дистрибутив на базе Arch Linux с рабочим столом KDE Plasma 6.** <br>
-***A modern Arch Linux-based distribution featuring the KDE Plasma 6 desktop.***
+**Центральный хаб утилит экосистемы EN-OS** <br>
+***Central Hub for EN-OS Ecosystem Utilities***
 
 </div>
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/Status-Release%201.0-success?style=for-the-badge)](https://github.com/Endscape-Coding/EN-OS/releases)
-[![Arch Based](https://img.shields.io/badge/Based%20On-Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux)](https://archlinux.org)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-6e48aa?style=for-the-badge&logo=github)](https://github.com/Endscape-Coding/EN-OS)
-[![Telegram](https://img.shields.io/badge/Telegram-Channel-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/Linux_EN_OS)
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](LICENSE)
+![Rust](https://img.shields.io/badge/Rust-orange?logo=rust)
+![Python](https://img.shields.io/badge/Python-yellow?logo=python)
+![License](https://img.shields.io/badge/License-AGPL%2F%20GPL-blue)
+![Status](https://img.shields.io/badge/Status-Active%20Development-green)
 
 </div>
 
@@ -28,116 +27,134 @@
 
 <div align="center">
 
-[Особенности](#-особенности) • [Скриншоты](#-скриншоты) • [Установка](#-установка) • [Скачать](#-скачать) • [Сообщество](#-сообщество) • [Вклад-в-проект](#️-вклад-в-проект)
+[О проекте](#-о-проекте) • [Каталог утилит](#-каталог-утилит) • [Безопасность](#-безопасность) • [Вклад в проект](#-вклад-в-проект) • [Статус компонентов](#-статус-компонентов) • [Контакты](#-контакты-и-сообщество)
 
 </div>
 
-### 🚀 Что такое EN-OS?
+### 📋 О проекте
 
-**EN-OS** — это современный, удобный и производительный дистрибутив Linux, построенный на надежном фундаменте Arch Linux. Он поставляется с предварительно настроенной новейшей средой рабочего стола **KDE Plasma 6 на Wayland**, созданной для эстетического удовольствия и максимальной продуктивности прямо "из коробки".
+**EN-OS-Utils** — это мета-репозиторий, объединяющий все утилиты и инструменты экосистемы **EN-OS**, современного Linux-дистрибутива на базе Arch Linux. Здесь вы найдёте ссылки на все компоненты системы с кратким описанием их назначения, технологий и текущего статуса.
 
-Наша философия — предоставить пользователю готовую к работе систему, избавляя от необходимости долгой настройки и ручной установки драйверов. EN-OS идеально подходит для повседневного использования, разработки, мультимедиа и игр.
-
->  **Текущий статус:** **`Release 1.0 "Leningrad Region"`** — стабильная релизная версия.
+> 💡 **Совет**: Используйте этот README как навигатор по экосистеме. Каждый репозиторий содержит подробную документацию, инструкции по сборке и использованию.
 
 ---
 
-### ✨ Особенности
+### 🗂️ Каталог утилит
 
-*   **🎯 Готовность к работе:** Все необходимое предустановлено. Система работает сразу после загрузки.
-*   **⚙️ Автоматическая оптимизация:**
-    *   **Z-RAM:** Автоматически настраивается и используется для увеличения эффективной оперативной памяти.
-*   **🎨 Красивый интерфейс:**
-    *   **KDE Plasma 6 + Wayland:** Используется новейшая версия с современным протоколом Wayland для лучшей производительности и безопасности.
-    *   **Единая красивая тема:** Согласованное оформление для всей системы, включая GRUB с красивой темой и сразу включенным `os-prober`.
-*   **🛠️ Удобство обслуживания:**
-    *   **Собственный репозиторий:** Быстрый доступ к стабильным пакетам и собственным настройкам EN-OS.
-    *   **Графический установщик драйверов:** Умный инструмент с GUI для автоматической установки последних драйверов (включая проприетарные NVIDIA), который подбирает оптимальную версию для вашей видеокарты.
-    *   **Графический установщик программ:** Модифицированный Pamac для удобного поиска и установки приложений.
-    *   **Надежные обновления:** Система обновлений настроена так, чтобы минимизировать риск поломки.
-*   **⚡ Производительность и надежность:**
-    *   **Поддержка BTRFS:** Работает с современной файловой системой BTRFS, включая предустановленные утилиты для работы с ней.
-    *   **Компактность:** Система оптимизирована и занимает мало места.
-*   **🔧 Простая установка:** Красивый и интуитивно понятный установщик Calamares.
+#### 🔧 Системные утилиты
 
----
+| Репозиторий | Описание | Технологии | Статус |
+|-------------|----------|-----------|--------|
+| **[EN-OS-System-Manager](https://github.com/Endscape-Coding/EN-OS-System-Manager)** | ✅ **Доступен**. Графический центр управления системой: мониторинг, настройки, управление сервисами и пакетами. | `Tauri` + `Python`/`Go`/`Rust` | 🟢 **Готов к использованию** |
+| **[EN-OS-Zram-Manager](https://github.com/Endscape-Coding/EN-OS-Zram-Manager)** | Универсальный менеджер ZRam: настройка алгоритмов сжатия, размера swap, мониторинг использования памяти и CPU. Работает на любых systemd-дистрибутивах. | `Rust` | 🟡 В разработке |
+| **[EN-OS-Pacman-Key-Manager](https://github.com/Endscape-Coding/EN-OS-Pacman-Key-Manager)** | Утилита для управления ключами pacman: базовые операции с ключами репозиториев. | `Shell`/`Rust` | 🟡 В разработке |
 
-### 🖼️ Скриншоты
+#### 🌐 Удалённое управление и автоматизация
 
-<div align="center">
+| Репозиторий | Описание | Технологии | Статус |
+|-------------|----------|-----------|--------|
+| **[EN-OS-Remote-Assistant](https://github.com/Endscape-Coding/EN-OS-Remote-Assistant)** | 🤖 Telegram-бот для удалённого управления ПК: выполнение команд, скриншоты, управление файлами. Поддержка X11/Wayland, эмуляция ввода через ydotool. | `Rust` + `teloxide` | 🟡 В разработке |
+| **[EN-OS-Live-Welcome](https://github.com/Endscape-Coding/EN-OS-Live-Welcome)** | Приветственный GUI для Live-сессий EN-OS: быстрый запуск установки, справка, выбор языковых настроек. | `Tauri` + `HTML`/`JS` | 🟡 В разработке |
 
-| Рабочий стол | Меню приложений |
-| :---: | :---: |
-| ![Desktop](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/desktop.png) | ![Applications](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/apps.png) |
+#### 🛠️ Сборка и дистрибуция
 
-| Установщик драйверов | Установщик Calamares |
-| :---: | :---: |
-| ![Driver Installer](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/driver.png) | ![Calamares](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/calamares.png) |
+| Репозиторий | Описание | Технологии | Статус |
+|-------------|----------|-----------|--------|
+| **[EN-OS-Builds](https://github.com/Endscape-Coding/EN-OS-Builds)** | 📦 **Доступен**. Скрипты и конфигурации для сборки ISO-образов EN-OS: профили сборок, автоматизация, управление версиями. | `Shell` + `Bash`/`Python` | ⚪ **Существует / Используется** |
+| **[EN-OS-Calamares](https://github.com/Endscape-Coding/EN-OS-Calamares)** | Кастомизированная конфигурация установщика Calamares для EN-OS: разметка, выбор пакетов, брендинг, пост-установочные скрипты. | `C++` + `Python` + `QML` | ⚪ Существует |
+| **[EN-Repository](https://github.com/Endscape-Coding/EN-Repository)** | Конфигурация официального репозитория EN-OS: структура пакетов, управление версиями, зеркалирование. | `pacman` + `repo-add` | ⚪ Активный |
 
-</div>
+#### 🎨 Интерфейс и персонализация
 
----
+| Репозиторий | Описание | Технологии | Статус |
+|-------------|----------|-----------|--------|
+| **[en-os-fastfetch](https://github.com/Endscape-Coding/en-os-fastfetch)** | Кастомная конфигурация fastfetch: логотип EN-OS, цветовая схема, отображение системной информации в терминале. | `JSON`/`Shell` | ⚪ Готов к использованию |
 
-### 📥 Установка
+#### 📱 Мобильная совместимость
 
-#### 1. Скачайте образ
-Загрузите версию **EN-OS 1.0 "Leningrad Region"** со страницы [Загрузок](https://endscape-coding.github.io/downloads.html).
-
-#### 2. Запишите образ на USB
-Используйте любую программу для записи ISO-образов на USB-накопитель.
-
-*   **Windows:** [Rufus](https://rufus.ie/), [Ventoy](https://www.ventoy.net/).
-*   **macOS/Linux:** [Balena Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/).
-*   **Командная строка Linux:**
-    ```bash
-    # ВНИМАНИЕ: Замените /dev/sdX на ваше устройство (например, /dev/sdb).
-    sudo dd if=path/to/en-os.iso of=/dev/sdX bs=4M status=progress oflag=sync
-    ```
-
-#### 3. Загрузитесь с USB
-Перезагрузите компьютер и выберите ваш USB-накопитель в меню загрузки BIOS/UEFI.
+| Репозиторий | Описание | Технологии | Статус |
+|-------------|----------|-----------|--------|
+| **[EN-OS-termux](https://github.com/Endscape-Coding/EN-OS-termux)** | Адаптация компонентов EN-OS для запуска в Termux на Android: базовые утилиты, окружение, совместимость. | `Shell` + `Rust` | 🧪 Экспериментальный |
 
 ---
 
-### 📀 Скачать
+### 🔐 Безопасность
 
-| Версия | Статус | Размер | Ссылка |
-| :--- | :--- | :--- | :--- |
-| **EN-OS 1.0 "Leningrad Region"** | **Релиз** | ~4.6 GB | [Скачать (SourceForge)](https://sourceforge.net/projects/en-os/) [Скачать (Yandex Disk)](https://disk.yandex.ru/d/b_-O61kvX9HOHQ)|
-| **Developer Edition** | 🚧 В разработке | - | *Скоро* |
-| **Gaming Edition** | 🚧 В разработке | - | *Скоро* |
-
----
-
-### 🤝 Сообщество
-
-Присоединяйтесь к нам, чтобы быть в курсе новостей, получать помощь и делиться идеями!
-
-*   **💬 Telegram-канал**: [@Linux_EN_OS](https://t.me/Linux_EN_OS) — Новости и анонсы
-*   **👥 Telegram-чат**: [@enos_community](https://t.me/enos_community) — Обсуждения и поддержка
-*   **🐛 Баг-репорты**: [@enbugreports](https://t.me/enbugreports) или [GitHub Issues](https://github.com/Endscape-Coding/EN-OS/issues) — Сообщения об ошибках
-*   **Вики**: [GitHub Wiki](https://github.com/Endscape-Coding/EN-OS/wiki) — Инструкции и возможно, ответы на ваши вопросы
+- Некоторые утилиты требуют `sudo` и явно запрашивают подтверждение.
+- Исходный код открыт: вы можете аудитировать любую утилиту перед использованием.
+- На текущем этапе репозиторий не использует GPG-подпись пакетов — мы работаем над внедрением системы верификации в будущих релизах.
+- При использовании `Remote-Assistant` (в разработке) обязательно настройте `.env` с `TELOXIDE_TOKEN` и `ID` для ограничения доступа.
 
 ---
 
-### ❤️ Вклад в проект
+### 🤝 Вклад в проект
 
-EN-OS — это проект с открытым исходным кодом, который создается сообществом. Мы будем рады любой помощи!
+EN-OS — проект с открытым исходным кодом, и мы приветствуем участие сообщества:
 
-*   **Тестирование**: Скачивайте релизы и сообщайте об ошибках.
-*   **Разработка**: Предлагайте улучшения кода через Pull Requests на [GitHub](https://github.com/Endscape-Coding/EN-OS).
-*   **Документация**: Помогайте улучшать этот README и другую документацию.
-*   **Распространение**: Расскажите о нашем проекте друзьям!
+1. **Сообщите об ошибке**: [Issues](https://github.com/Endscape-Coding/EN-OS-Programs/issues)
+2. **Предложите улучшение**: Обсудите идею в Issue перед PR
+3. **Напишите код**: Следуйте [CONTRIBUTING.md](./CONTRIBUTING.md) (скоро)
+4. **Протестируйте**: Особенно важны тесты на разном железе и в Live-режиме
+
+#### 📌 Правила для PR
+- ✅ Код на Rust должен проходить `cargo clippy` и `cargo fmt`
+- ✅ Документация на русском и английском
+- ✅ Тесты для новых функций (где применимо)
+- ✅ Совместимость с systemd и Arch-based системами
 
 ---
 
-### 📝 Лицензия
+### 📊 Статус компонентов
 
-Этот проект распространяется под лицензией **GNU General Public License v3.0**. Подробнее см. в файле [LICENSE](LICENSE).
+| Компонент | Статус | Доступность | Примечание |
+|-----------|--------|-------------|------------|
+| System-Manager | 🟢 Готов | ✅ В репозитории | Основной инструмент управления |
+| EN-OS-Builds | ⚪ Существует | ✅ В репозитории | Используется для сборки пакетов |
+| EN-Repository | ⚪ Активен | ✅ Подключён | Основной источник пакетов |
+| en-os-fastfetch | ⚪ Готов | ✅ В репозитории | Косметическое улучшение |
+| Zram-Manager | 🟡 В разработке | 🔜 Скоро | Оптимизация памяти |
+| Remote-Assistant | 🟡 В разработке | 🔜 Скоро | Удалённое управление |
+| Live-Welcome | 🟡 В разработке | 🔜 Скоро | Приветствие в Live-режиме |
+| Pacman-Key-Manager | 🟡 В разработке | 🔜 Скоро | Управление ключами |
+| EN-OS-Calamares | ⚪ Существует | ✅ В репозитории | Конфигурация установщика |
+| EN-OS-termux | 🧪 Эксперимент | 🔬 Тестирование | Android-совместимость |
+
+> 🔄 Все репозитории используют **rolling-release** модель: обновления доступны сразу после тестирования.
+
+---
+
+### 🌍 Поддержка языков
+
+| Утилита | 🇷🇺 Русский | 🇬🇧 English | 🌐 Другие |
+|---------|-----------|-----------|----------|
+| System-Manager | ✅ | ✅ | В разработке |
+| Remote-Assistant | ✅ | ✅ | — |
+| Live-Welcome | ✅ | ✅ | В разработке |
+| Zram-Manager | ✅ | ✅ | — |
+| fastfetch | ✅ | ✅ | Через конфиг |
+
+---
+
+### 📬 Контакты и сообщество
+
+- **Telegram-канал**: [@Linux_EN_OS](https://t.me/Linux_EN_OS)
+- **GitHub Issues**: [Сообщить об ошибке](https://github.com/Endscape-Coding/EN-OS-Programs/issues)
+- **Email**: endscape.coding@gmail.com
+- **Документация**: [Wiki (скоро)](https://github.com/Endscape-Coding/EN-OS-Programs/wiki)
+
+---
+
+### 📄 Лицензии
+
+Большинство утилит распространяются под лицензиями:
+- **AGPL-3.0** — для сетевых и удалённых компонентов
+- **GPL-3.0** — для GUI и системных утилит
+
+Полный текст лицензий находится в файле `LICENSE` каждого репозитория.
 
 <div align="right">
 
-[⬆ Наверх](#en-os)
+[⬆ Наверх](#-en-os-utils)
 
 </div>
 
@@ -146,115 +163,147 @@ EN-OS — это проект с открытым исходным кодом, �
 
 <div align="center">
 
-[Features](#-features-1) • [Screenshots](#-screenshots-1) • [Installation](#-installation-1) • [Download](#-download-1) • [Community](#-community-1) • [Contributing](#️-contributing)
+[About](#-about-the-project) • [Utilities Catalog](#-utilities-catalog) • [Security](#-security) • [Contributing](#-contributing) • [Component Status](#-component-status) • [Contacts](#-contacts--community)
 
 </div>
 
-### 🚀 What is EN-OS?
+### 📋 About the Project
 
-**EN-OS** is a modern, user-friendly, and powerful Linux distribution built on the solid foundation of Arch Linux. It comes with a pre-configured **KDE Plasma 6 on Wayland** desktop environment, meticulously tuned for an aesthetically pleasing and productive experience right out of the box.
+**EN-OS-Utils** is a meta-repository that unites all utilities and tools of the **EN-OS** ecosystem, a modern Linux distribution based on Arch Linux. Here you will find links to all system components with brief descriptions of their purpose, technologies, and current status.
 
-Our philosophy is to provide a system that is ready for immediate use, saving you from lengthy setup processes and manual driver installations. EN-OS is ideal for daily use, development, multimedia, and gaming.
-
-> **Current Status:** **`Release 1.0 "Leningrad Region"`** — stable release version.
+> 💡 **Tip**: Use this README as a navigator through the ecosystem. Each repository contains detailed documentation, build instructions, and usage guides.
 
 ---
 
-### ✨ Features
+### 🗂️ Utilities Catalog
 
-*   **🎯 Ready to Go:** Everything essential is pre-installed. The system works immediately after booting.
-*   **⚙️ Automatic Optimization:**
-    *   **Z-RAM:** Automatically configured and used to increase effective RAM.
-*   **🎨 Beautiful Interface:**
-    *   **KDE Plasma 6 + Wayland:** The latest version with modern Wayland protocol for better performance and security.
-    *   **Unified Beautiful Theme:** Coherent styling for the entire system, including GRUB with a beautiful theme and `os-prober` enabled by default.
-*   **🛠️ Maintenance Convenience:**
-    *   **Own Repository:** Fast access to stable packages and EN-OS customizations.
-    *   **Graphical Driver Installer:** Smart GUI tool for automatic installation of the latest drivers (including proprietary NVIDIA), which selects the optimal version for your graphics card.
-    *   **Graphical Software Installer:** Modified Pamac for convenient application search and installation.
-    *   **Reliable Updates:** The update system is configured to minimize the risk of breakage.
-*   **⚡ Performance & Reliability:**
-    *   **BTRFS Support:** Works with the modern BTRFS filesystem, including pre-installed utilities for managing it.
-    *   **Compact:** The system is optimized and takes up little space.
-*   **🔧 Easy Installation:** Beautiful and intuitive Calamares installer.
+#### 🔧 System Utilities
 
----
+| Repository | Description | Technologies | Status |
+|------------|-------------|--------------|--------|
+| **[EN-OS-System-Manager](https://github.com/Endscape-Coding/EN-OS-System-Manager)** | ✅ **Available**. Graphical system control center: monitoring, settings, service and package management. | `Tauri` + `Python`/`Go`/`Rust` | 🟢 **Ready for use** |
+| **[EN-OS-Zram-Manager](https://github.com/Endscape-Coding/EN-OS-Zram-Manager)** | Universal ZRam manager: configure compression algorithms, swap size, monitor memory and CPU usage. Works on any systemd-based distribution. | `Rust` | 🟡 In development |
+| **[EN-OS-Pacman-Key-Manager](https://github.com/Endscape-Coding/EN-OS-Pacman-Key-Manager)** | Utility for managing pacman keys: basic operations with repository keys. | `Shell`/`Rust` | 🟡 In development |
 
-### 🖼️ Screenshots
+#### 🌐 Remote Control & Automation
 
-<div align="center">
+| Repository | Description | Technologies | Status |
+|------------|-------------|--------------|--------|
+| **[EN-OS-Remote-Assistant](https://github.com/Endscape-Coding/EN-OS-Remote-Assistant)** | 🤖 Telegram bot for remote PC control: command execution, screenshots, file management. Supports X11/Wayland, input emulation via ydotool. | `Rust` + `teloxide` | 🟡 In development |
+| **[EN-OS-Live-Welcome](https://github.com/Endscape-Coding/EN-OS-Live-Welcome)** | Welcome GUI for EN-OS Live sessions: quick installer launch, help, language settings selection. | `Tauri` + `HTML`/`JS` | 🟡 In development |
 
-| Desktop | Application Menu |
-| :---: | :---: |
-| ![Desktop](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/desktop.png) | ![Applications](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/apps.png) |
+#### 🛠️ Build & Distribution
 
-| Driver Installer | Calamares Installer |
-| :---: | :---: |
-| ![Driver Installer](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/driver.png) | ![Calamares](https://github.com/Endscape-Coding/EN-OS/blob/main/Images/calamares.png) |
+| Repository | Description | Technologies | Status |
+|------------|-------------|--------------|--------|
+| **[EN-OS-Builds](https://github.com/Endscape-Coding/EN-OS-Builds)** | 📦 **Available**. Scripts and configurations for building EN-OS ISO images: build profiles, automation, version management. | `Shell` + `Bash`/`Python` | ⚪ **Exists / In use** |
+| **[EN-OS-Calamares](https://github.com/Endscape-Coding/EN-OS-Calamares)** | Customized Calamares installer configuration for EN-OS: partitioning, package selection, branding, post-install scripts. | `C++` + `Python` + `QML` | ⚪ Exists |
+| **[EN-Repository](https://github.com/Endscape-Coding/EN-Repository)** | Official EN-OS repository configuration: package structure, version management, mirroring. | `pacman` + `repo-add` | ⚪ Active |
 
-</div>
+#### 🎨 Interface & Personalization
 
----
+| Repository | Description | Technologies | Status |
+|------------|-------------|--------------|--------|
+| **[en-os-fastfetch](https://github.com/Endscape-Coding/en-os-fastfetch)** | Custom fastfetch configuration: EN-OS logo, color scheme, system information display in terminal. | `JSON`/`Shell` | ⚪ Ready for use |
 
-### 📥 Installation
+#### 📱 Mobile Compatibility
 
-#### 1. Download the ISO
-Download the **EN-OS 1.0 "Leningrad Region"** version from the [Downloads Page](https://endscape-coding.github.io/downloads.html) page.
-
-#### 2. Create a Bootable USB
-Use any preferred software to flash the ISO image to a USB drive.
-
-*   **Windows:** [Rufus](https://rufus.ie/), [Ventoy](https://www.ventoy.net/).
-*   **macOS/Linux:** [Balena Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/).
-*   **Linux Command Line:**
-    ```bash
-    # WARNING: Replace /dev/sdX with your actual device (e.g., /dev/sdb).
-    sudo dd if=path/to/en-os.iso of=/dev/sdX bs=4M status=progress oflag=sync
-    ```
-
-#### 3. Boot from USB
-Reboot your computer and select the USB drive from your BIOS/UEFI boot menu.
+| Repository | Description | Technologies | Status |
+|------------|-------------|--------------|--------|
+| **[EN-OS-termux](https://github.com/Endscape-Coding/EN-OS-termux)** | Adaptation of EN-OS components for running in Termux on Android: basic utilities, environment, compatibility. | `Shell` + `Rust` | 🧪 Experimental |
 
 ---
 
-### 📀 Download
+### 🔐 Security
 
-| Version | Status | Size | Link |
-| :--- | :--- | :--- | :--- |
-| **EN-OS 1.0 "Leningrad Region"** | **Release** | ~4.6 GB | [Download (SourceForge)](https://sourceforge.net/projects/en-os/) [Download (Yandex Disk)](https://disk.yandex.ru/d/b_-O61kvX9HOHQ)|
-| **Developer Edition** | 🚧 Under Development | - | *Coming Soon* |
-| **Gaming Edition** | 🚧 Under Development | - | *Coming Soon* |
-
----
-
-### 🤝 Community
-
-Join us to stay updated, get help, and share your ideas!
-
-*   **💬 Telegram Channel**: [@Linux_EN_OS](https://t.me/Linux_EN_OS) — News and announcements
-*   **👥 Telegram Chat**: [@enos_community](https://t.me/enos_community) — Discussions and support
-*   **🐛 Bug Reports**: [@enbugreports](https://t.me/enbugreports) or [GitHub Issues](https://github.com/Endscape-Coding/EN-OS/issues) — Report bugs here
-*   **Our Wiki**: [GitHub Wiki](https://github.com/Endscape-Coding/EN-OS/issues) — Instructions and answer for you questions
+- Some utilities require `sudo` and explicitly request confirmation.
+- Source code is open: you can audit any utility before use.
+- At this stage, the repository does not use GPG package signing — we are working on implementing a verification system in future releases.
+- When using `Remote-Assistant` (in development), be sure to configure `.env` with `TELOXIDE_TOKEN` and `ID` to restrict access.
 
 ---
 
-### ❤️ Contributing
+### 🤝 Contributing
 
-EN-OS is an open-source project driven by the community. We welcome all contributions!
+EN-OS is an open-source project, and we welcome community participation:
 
-*   **Testing**: Download releases and report any bugs you find.
-*   **Development**: Suggest code improvements via Pull Requests on [GitHub](https://github.com/Endscape-Coding/EN-OS).
-*   **Documentation**: Help us improve this README and other documentation.
-*   **Spreading the word**: Tell your friends about our project!
+1. **Report a bug**: [Issues](https://github.com/Endscape-Coding/EN-OS-Programs/issues)
+2. **Suggest an improvement**: Discuss your idea in an Issue before submitting a PR
+3. **Write code**: Follow [CONTRIBUTING.md](./CONTRIBUTING.md) (coming soon)
+4. **Test**: Tests on different hardware and in Live mode are especially valuable
+
+#### 📌 PR Guidelines
+- ✅ Rust code must pass `cargo clippy` and `cargo fmt`
+- ✅ Documentation in both Russian and English
+- ✅ Tests for new features (where applicable)
+- ✅ Compatibility with systemd and Arch-based systems
 
 ---
 
-### 📝 License
+### 📊 Component Status
 
-This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
+| Component | Status | Availability | Notes |
+|-----------|--------|--------------|-------|
+| System-Manager | 🟢 Ready | ✅ In repository | Main system management tool |
+| EN-OS-Builds | ⚪ Exists | ✅ In repository | Used for building packages |
+| EN-Repository | ⚪ Active | ✅ Connected | Main package source |
+| en-os-fastfetch | ⚪ Ready | ✅ In repository | Cosmetic enhancement |
+| Zram-Manager | 🟡 In development | 🔜 Coming soon | Memory optimization |
+| Remote-Assistant | 🟡 In development | 🔜 Coming soon | Remote control |
+| Live-Welcome | 🟡 In development | 🔜 Coming soon | Live session welcome screen |
+| Pacman-Key-Manager | 🟡 In development | 🔜 Coming soon | Key management |
+| EN-OS-Calamares | ⚪ Exists | ✅ In repository | Installer configuration |
+| EN-OS-termux | 🧪 Experimental | 🔬 Testing | Android compatibility |
+
+> 🔄 All repositories follow a **rolling-release** model: updates are available immediately after testing.
+
+---
+
+### 🌍 Language Support
+
+| Utility | 🇷🇺 Russian | 🇬🇧 English | 🌐 Others |
+|---------|-----------|-----------|----------|
+| System-Manager | ✅ | ✅ | In development |
+| Remote-Assistant | ✅ | ✅ | — |
+| Live-Welcome | ✅ | ✅ | In development |
+| Zram-Manager | ✅ | ✅ | — |
+| fastfetch | ✅ | ✅ | Via config |
+
+---
+
+### 📬 Contacts & Community
+
+- **Telegram channel**: [@Linux_EN_OS](https://t.me/Linux_EN_OS)
+- **GitHub Issues**: [Report a bug](https://github.com/Endscape-Coding/EN-OS-Programs/issues)
+- **Email**: endscape.coding@gmail.com
+- **Documentation**: [Wiki (coming soon)](https://github.com/Endscape-Coding/EN-OS-Programs/wiki)
+
+---
+
+### 📄 Licenses
+
+Most utilities are distributed under the following licenses:
+- **AGPL-3.0** — for network and remote components
+- **GPL-3.0** — for GUI and system utilities
+
+Full license texts are located in the `LICENSE` file of each repository.
 
 <div align="right">
 
-[⬆ Back to Top](#en-os)
+[⬆ Back to Top](#-en-os-utils)
 
 </div>
+
+---
+
+> 💬 *«EN-OS — это не просто дистрибутив, это экосистема, где каждая утилита продумана для максимальной гибкости, безопасности и простоты. Добро пожаловать в будущее Linux.»*  
+> *"EN-OS is not just a distribution — it's an ecosystem where every utility is designed for maximum flexibility, security, and simplicity. Welcome to the future of Linux."*  
+> — Команда EN-OS / The EN-OS Team
+
+⭐ **Поставьте звезду / Star the repo**, если проект вам полезен / if you find this project useful!  
+🔁 **Форкните / Fork it**, чтобы предложить улучшения или адаптировать под свои нужды / to suggest improvements or adapt it to your needs.
+
+---
+
+*Последнее обновление / Last updated: Март / March 2026*  
+*Совместимо с / Compatible with: Arch Linux, EN-OS, Arch-based distributions*
